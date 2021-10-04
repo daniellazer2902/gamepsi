@@ -1,0 +1,61 @@
+/*Fond de l'écran de connexion*/
+
+#GamePsi{
+    font-family:Mv boli;
+    color: white;
+}
+
+/*Bloc div ou seront les entrées pseudo et password*/
+#Connexion{ 
+    margin-top: 10%;
+    
+}
+
+/*Mets en place un fond pour les entrées pseudo et password dans le div #connexion*/
+form {
+    width:100%;
+    }
+
+
+/*Mets en place la case "Pseudo" et "Password" grâce au input [type]*/
+input[type=text], input[type=password] {
+    text-align: center;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/*Mets en place la case LOGIN grâce au input [type]*/
+input[type=submit] {
+    background-color: lightskyblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/*Mets le le "Pseudo" et le "Mot de Passe" au centre*/
+#alignement {
+     text-align: center;
+    
+}
+
+#inscription {
+    margin-left: 540px;
+    text-align: center;
+    
+}
+
+
+
+/*Aligne au centre de notre case*/
+h1 , h2 {
+    text-align: center;
+    font-family: Mv boli;
+    
+}
